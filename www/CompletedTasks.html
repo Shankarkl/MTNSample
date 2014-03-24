@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="Styles/MTN.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+    <script type="text/javascript">
+        function customCheckbox(checkboxName) {
+            var checkBox = $('input[name="' + checkboxName + '"]');
+            $(checkBox).each(function () {
+                $(this).wrap("<span class='custom-checkbox'></span>");
+                if ($(this).is(':checked')) {
+                    $(this).parent().addClass("selected");
+                }
+            });
+            $(checkBox).click(function () {
+                $(this).parent().toggleClass("selected");
+            });
+        }
+        $(document).ready(function () {
+            debugger;
+            customCheckbox("chk[]");
+            curtime
+        })
+        
+        function funAlert()
+        {
+            var r = confirm("Would you like to start this task?");
+            if (r == true)
+              {
+              window.location="Quest2.html";
+              }
+            else
+              {
+              window.location="home.html";
+              }
+        }
+        
+        function gohome()
+        {
+            window.location="home.html";    
+        }
+    </script>
+
+</head>
+<body class="MTNCompleted" onload="funAlert()">
+    <div class="MTNCompletedMain">
+        <div class="MTNHeader">
+            <div class="MTNHeaderInner">
+                <div class="MTNHeaderLogoDiv">
+                    <img src="Images/Footerlogo.png" class="MTNHeaderLogoImg" alt="" onclick="gohome()" />
+                </div>
+                <div class="MTNHeading">
+                    <div id="curtime"></div>
+                </div>
+            </div>
+        </div>
+        <div class="MTNUnderline"></div>
+        <div class="MTNCompletedContentOuter">
+            <div class="MTNCompletedContent">
+                <ul class="MNSItemsDiv">
+                    <li class="MNSList">
+                        <div class="MTNListItemText">I confirm that the information entered is correct and captured at the customer site</div>
+                        <div class="MTNChkbox">
+                            <input id="MtNChkbxConfirm" type="checkbox" name="chk[]" />
+                        </div>
+                    </li>
+                </ul>
+                <div class="MTNListItemBorder"></div>
+                <ul class="MNSItemsDiv">
+                    <li class="MNSList">
+                        <div class="MTNListItemText">Image of incident</div>
+                        <div class="MTNChkbox">
+                            <input id="MtNChkbxIncident" type="checkbox" name="chk[]" />
+                        </div>
+                    </li>
+                </ul>
+                <div class="MTNListItemBorder"></div>
+                <ul class="MNSItemsDiv">
+                    <li class="MNSList">
+                        <div class="MTNListItemText">Image of work done</div>
+                        <div class="MTNChkbox">
+                            <input id="MtNChkbxWork" type="checkbox" name="chk[]" />
+                        </div>
+                    </li>
+                </ul>
+                <div class="MTNListItemBorder"></div>
+                <ul class="MNSItemsDiv">
+                    <li class="MNSList">
+                        <div class="MTNListItemText">Please rate quality of service</div>
+                        <div class="MTNChkbox">
+                            <input id="MtNChkbxService" type="checkbox" name="chk[]" />
+                        </div>
+                    </li>
+                </ul>
+                <div class="MTNListItemBorder"></div>
+                <ul class="MNSItemsDiv">
+                    <li class="MNSList">
+                        <div class="MTNListItemText">Was the service delivered timeously?</div>
+                        <div class="MTNChkbox">
+                            <input id="MtNChkbxTimeously" type="checkbox" name="chk[]" />
+                        </div>
+                    </li>
+                </ul>
+                <div class="MTNListItemBorder"></div>
+                <ul class="MNSItemsDiv">
+                    <li class="MNSList">
+                        <div class="MTNListItemText">Additional comments</div>
+                        <div class="MTNChkbox">
+                            <input id="MtNChkbxComments" type="checkbox" name="chk[]" />
+                        </div>
+                    </li>
+                </ul>
+                <div class="MTNListItemBorder"></div>
+                <ul class="MNSItemsDiv">
+                    <li class="MNSList">
+                        <div class="MTNListItemText">Customer name</div>
+                        <div class="MTNChkbox">
+                            <input id="MtNChkbxCustName" type="checkbox" name="chk[]" />
+                        </div>
+                    </li>
+                </ul>
+                <div class="MTNListItemBorder"></div>
+                <ul class="MNSItemsDiv">
+                    <li class="MNSList">
+                        <div class="MTNListItemText">Customer signature</div>
+                        <div class="MTNChkbox">
+                            <input id="MtNChkbxCustSign" type="checkbox" name="chk[]" />
+                        </div>
+                    </li>
+                </ul>
+                <div class="MTNListItemBorder"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

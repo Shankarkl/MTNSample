@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="Styles/MTN.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="Scripts/MTNValidation.js"></script>
+
+<script language="javascript">
+function gohome()
+{
+    window.location="home.html";    
+}
+</script>
+</head>
+<body class="MTNLogin">
+    <div class="MTNMain">
+        <div class="MTNHeader">
+            <div class="MTNHeaderInner">
+                <div class="MTNHeaderLogoDiv">
+                    <img src="Images/Footerlogo.png" class="MTNHeaderLogoImg" alt="" />
+                </div>
+                <div class="MTNHeading">
+                    MTN
+                </div>
+            </div>
+        </div>
+        <div class="MTNUnderline"></div>
+        <div class="MTNContentOuter">
+            <div class="MTNLogoOuterDiv">
+                <div class="MTNLogoDiv">
+                    <img src="Images/logo.jpg" class="MTNLogoImg" alt="" />
+                </div>
+            </div>
+            <div class="MTNContentMain">
+                <div class="MTNContentInnerDiv">
+                    <input id="txtPhoneNo" type="text" placeholder="Your telephone number" class="MTNTxtbox" name="PhoneNo" />
+                    <div class="MTNUnderline"></div>
+                    <div class="MTNValidationDiv">
+                        <span id="spnPhoneNoErr" class="MTNValidationTxt"></span>
+                    </div>
+
+                </div>
+                <div class="MTNContentInnerDiv">
+                    <input id="txtCompany" type="text" placeholder="Your Company Name" class="MTNTxtbox" name="Company" />
+                    <div class="MTNValidationDiv">
+                        <span id="spnCompanyErr" class="MTNValidationTxt"></span>
+                    </div>
+                </div>
+                <div class="MTNChkDetailsDiv">
+                    <input id="btnChkDetails" type="button" value="Check Details" class="MTNChkDetailsBtn" onclick="gohome()" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

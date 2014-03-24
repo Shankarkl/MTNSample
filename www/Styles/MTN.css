@@ -1,0 +1,293 @@
+﻿
+/*MTN CSS */
+.MTNLogin {
+    margin: 0px;
+    background-color: #f0f0f0;
+}
+
+/*MTN Main */
+.MTNMain {
+    width: 99.9%;
+}
+
+/*MTN Header Css */
+.MTNHeader {
+    width: 100%;
+    background-color: #000;
+    height: 50px;
+}
+
+/*MTN Header Inner Css */
+.MTNHeaderInner {
+    width: 90%;
+    margin: auto;
+}
+/*MTN Header Logo Div Css*/
+.MTNHeaderLogoDiv {
+    width: 10%;
+    float: left;
+}
+/*MTN Header Logo Img Css*/
+.MTNHeaderLogoImg {
+    width: 100%;
+    padding-top: 10px;
+    height: 35px;
+}
+/*MTN Heading Css*/
+.MTNHeading {
+    width: 88%;
+    color: #fff;
+    float: left;
+    height: 35px;
+    padding-top: 14px;
+    padding-left: 4px;
+    font-family: Arial;
+    font-size: 16px;
+}
+/*MTN Underline Css*/
+.MTNUnderline {
+    width: 100%;
+    background-color: #78C6DF;
+    height: 2px;
+    margin: 0px;
+}
+/*MTN Content Css */
+.MTNContentOuter {
+    width: 100%;
+}
+/*MTN Logo Outer Div Css*/
+.MTNLogoOuterDiv {
+    width: 50%;
+    margin: auto;
+}
+
+/*MTN Logo Div Css*/
+.MTNLogoDiv {
+    width: 100%;
+}
+
+/*MTN Logo Img Css*/
+.MTNLogoImg {
+    width: 100%;
+}
+
+/*MTN Content Main Css*/
+.MTNContentMain {
+    width: 100%;
+    margin-top: 25px;
+}
+
+/*MTN Content InnerDiv Css*/
+.MTNContentInnerDiv {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*MTN Textbox Css*/
+.MTNTxtbox {
+    width: 85%;
+    text-align: center;
+    border: 4px solid #FFC000;
+    border-radius: 8px;
+    height: 30px;
+    background-color: #f0f0f0;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ccc;
+}
+
+/*MTN ChkDetails Div Css*/
+.MTNChkDetailsDiv {
+    width: 90%;
+    margin: auto;
+}
+
+/*MTN ChkDetails Btn Css*/
+.MTNChkDetailsBtn {
+    width: 100%;
+    background-color: #ccc;
+    border: 4px solid #FFC000;
+    height: 45px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+/*MTN Validation Txt Css*/
+.MTNValidationTxt {
+    font-size: 12px;
+    font-family: Arial;
+}
+
+/*----------------------------*/
+.MTNCompleted {
+    margin: 0px;
+    background-color: #000;
+}
+
+.MTNCompletedMain {
+    width: 99.9%;
+    background-color: #000;
+    display: inline-block;
+}
+
+.MTNCompletedContentOuter {
+    width: 100%;
+}
+
+.MTNCompletedContent {
+    width: 100%;
+}
+
+.MNSItemsDiv {
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+}
+
+.MTNListItemText {
+    width: 90%;
+    float: left;
+    color: #fff;
+    font-family: Arial;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.MNSList {
+    width: 90%;
+    margin: auto;
+}
+
+.MTNChkbox {
+    float: left;
+    border: 1px solid #fff;
+    margin-top: 10px;
+}
+
+.MTNListItemBorder {
+    background-color: #477573;
+    width: 100%;
+    height: 2px;
+    display: inline-block;
+}
+
+.custom-checkbox {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    top: 3px;
+}
+
+    .custom-checkbox.selected {
+        background: url("../Images/check.png") no-repeat;
+    }
+
+    .custom-checkbox input[type="checkbox"] {
+        margin: 0;
+        position: absolute;
+        z-index: 2;
+        cursor: pointer;
+        outline: none;
+        opacity: 0;
+        /* CSS hacks for older browsers */
+        _noFocusLine: expression(this.hideFocus=true);
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+        -khtml-opacity: 0;
+        -moz-opacity: 0;
+    }
+
+/*----------------*/
+
+.MTNQuest {
+    margin: 0px;
+    background-color: #000;
+}
+
+.MTNQuestMain {
+    width: 99.8%;
+    background-color: #000;
+    display: inline-block;
+}
+
+.MTNQuestHeading {
+    width: 100%;
+    color: white;
+    height: 35px;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.MTNQuestButtonDIv {
+    width: 100%;
+}
+
+.MNSQuestImgDiv {
+    width: 90%;
+    margin: auto;
+}
+
+.MNSQuestImg {
+    width: 49%;
+    float: left;
+}
+
+
+.MTNQuestBtnSpace {
+    width: 2%;
+    float: left;
+    height: 50px;
+}
+
+.MTNQuestContent {
+    width: 100%;
+}
+
+.MTNQuestPic {
+    width: 95%;
+    height: 150px;
+    background-color: black;
+    border: 4px solid #FFC000;
+    color: white;
+    font-family: Arial;
+    font-size: 16px;
+    border-radius: 18px;
+    margin: auto;
+    display: block;
+}
+
+.MTNQuestTxtAreaDiv {
+    width: 100%;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.MTNQuestTxtArea {
+    width: 98%;
+    float: left;
+    margin: auto;
+    display: block;
+}
+
+.MTNQuestTxt {
+    border-style: none; 
+    width: 100%;
+    height: 88px;
+    background-color: #000;
+    color: #686868;
+    font-family: Arial;
+    font-size: 16px;
+    border-bottom: 1px solid #17515F;
+}
+
+.MTNCOntentBtn {
+    margin-bottom: 20px;
+}

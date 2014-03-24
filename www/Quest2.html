@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+    <link rel="stylesheet" href="Styles/MTN.css" />
+    
+    <script language="javascript">
+function gonext()
+{
+    window.location="Quest3.html";    
+}
+function goprev()
+{
+    window.location="Quest1.html";    
+}
+</script>
+    
+</head>
+<body class="MTNQuest">
+    <div class="MTNQuestMain">
+        <div class="MTNHeader">
+            <div class="MTNHeaderInner">
+                <div class="MTNHeaderLogoDiv">
+                    <img src="Images/Footerlogo.png" class="MTNHeaderLogoImg" alt="" />
+                </div>
+                <div class="MTNHeading">
+                    (Halogen Security) 49 Adekunl
+                </div>
+            </div>
+        </div>
+        <div class="MTNUnderline"></div>
+
+        <div class="MTNQuestHeading">Image of incident</div>
+        <div class="MTNQuestContent">
+            <div class="MTNContentBtn">
+                <input id="btnTouch" type="button" value="Touch to take a picture" class="MTNQuestPic" />
+            </div>
+            <div class="MTNQuestButtonDIv">
+                <div class="MNSQuestImgDiv">
+                    <img alt="" src="Images/previous.png" class="MNSQuestImg" onclick="goprev()"/>
+                    <div class="MTNQuestBtnSpace"></div>
+                    <img alt="" src="Images/next.png" class="MNSQuestImg" onclick="gonext()" />
+                </div>
+            </div>
+            <div class="MTNQuestTxtAreaDiv">
+                <div class="MTNQuestTxtArea">
+                    <textarea id="txtNotes" class="MTNQuestTxt" placeholder="Notes:"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
